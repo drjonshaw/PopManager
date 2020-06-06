@@ -1,0 +1,21 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.2.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "klaw": "^3.0.0",
+    "moment": "^2.26.0"
+  }
+}
